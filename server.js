@@ -27,4 +27,7 @@ app.use('/auth', authRoutes);
 // Iniciar servidor
 app.listen(PORT, () => {
   console.log(`🚀 Servidor en el puerto ${PORT}`);
+
+self.addEventListener('sync',event=>{
+})
 });
