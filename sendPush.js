@@ -9,7 +9,7 @@ const keys = JSON.parse(readFileSync(keysPath, "utf-8"));
 
 
 webpush.setVapidDetails(
-  'mailto:cedrick.moran.22s@utzmg.edu.mx',
+  'mailto:brandon.vazquez.22e@utzmg.edu.mx',
   keys.publicKey,
   keys.privateKey
 );
